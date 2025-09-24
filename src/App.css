@@ -1,0 +1,53 @@
+
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.root{
+  height: 100vh;
+  width: 100vw;
+}
+.App {
+  padding:10px ; 
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show {
+  transition: all ease 1s ;
+  animation: show 1s ease  forwards;
+  box-shadow: inset 0px 0px 0px 7px white;
+}
+
+.hide{
+  transition: all ease 1s ;
+  animation: hide 1s ease  forwards;
+  background-image: url(./assets/image/لقطة\ شاشة\ 2025-09-23\ 033514.png);
+}
+
+@keyframes show {
+  to{
+    transform: rotateY(180deg);
+  }
+}
+
+@keyframes hide {
+  to{
+    transform: rotateY(180deg);
+  }
+}
+
+
+.start-timer {
+  font-size: 200px ;
+  top : calc(50% - 200px ); 
+  left: calc(50% - 50px );
+  z-index: 1000;
+}
