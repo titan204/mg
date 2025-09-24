@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/mg/static/css/main.ae120815.css",
+    "main.js": "/mg/static/js/main.66e9c549.js",
+    "static/js/453.8d328d39.chunk.js": "/mg/static/js/453.8d328d39.chunk.js",
+    "static/media/لقطة شاشة 2025-09-23 033514.png": "/mg/static/media/لقطة شاشة 2025-09-23 033514.dbac33ebbfba656051d5.png",
+    "static/media/logo.svg": "/mg/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/mg/index.html",
+    "main.ae120815.css.map": "/mg/static/css/main.ae120815.css.map",
+    "main.66e9c549.js.map": "/mg/static/js/main.66e9c549.js.map",
+    "453.8d328d39.chunk.js.map": "/mg/static/js/453.8d328d39.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae120815.css",
+    "static/js/main.66e9c549.js"
+  ]
+}ts": [
+    "static/css/main.2630cff8.css",
+    "static/js/main.8e56ee95.js"
+  ]
+}
